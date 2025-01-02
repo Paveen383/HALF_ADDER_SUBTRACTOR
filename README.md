@@ -61,6 +61,7 @@ Figure -02 HALF Subtractor
 Developed by:Paveen Kumaran SV
 
 RegisterNumber:24000025
+~~~
 
 module halfadder (a,b,sum, carry);
 
@@ -86,6 +87,7 @@ assign difference= (a^b);
 assign borrow= ( ~a & b);
 
 endmodule
+~~~
 
 **RTL Schematic**
 
